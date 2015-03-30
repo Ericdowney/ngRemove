@@ -17,7 +17,7 @@ becomes
   <span>3</span>
 ```
 
-This is useful in situations where you need an element with a specific scope, like ng-repeats, but you don't want the repeat element to show up in the DOM or in your css styles.
+This is useful in situations where you need an element with a specific scope, like ng-repeat, but you don't want the repeat element to show up in the DOM or in your css styles.
 
 ```html
 <!-- Outer div is a flex box with a flex direction row -->
