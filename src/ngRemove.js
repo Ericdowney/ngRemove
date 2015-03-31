@@ -4,8 +4,8 @@
 	module.directive("ngRemove", [function () {
 		return {
 			restrict: "A",
-			compile: function (tElem, tAttrs) {
-				tElem.replaceWith(tElem.html());
+			link: function (scope, elem) {
+				elem.replaceWith(elem.contents());
 			}
 		};
 	}]);
